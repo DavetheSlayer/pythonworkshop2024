@@ -12,8 +12,11 @@ import matplotlib_venn # a method
 
 print('All packages have been imported successfully!')
 
+# define the two sets of data
 groupone = set(['oak', 'pecan', 'walnut', 'bald cypress', 'sycamore'])
 grouptwo = set(['pecan', 'walnut', 'black locust', 'elm'])
 
 matplotlib_venn.venn2((groupone, grouptwo), ('Park 1 Trees', 'Park 2 Trees'))
+
+#generate plot
 plt.show()
